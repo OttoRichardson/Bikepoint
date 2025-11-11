@@ -5,7 +5,7 @@ on:
   #EVERY 5 MINUTES
     #- cron: '*/5 * * * *' 
   #ALLOW THE WORKFLOW TO RUN MANUALLY
-  workflow_dispatch:
+  #workflow_dispatch:
 
 jobs:
   build:
