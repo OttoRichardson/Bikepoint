@@ -26,7 +26,7 @@ def load():
         # except:
         #     print('Access denyed')
         #     sys.exit(1)   
-        dir = 'data'
+    dir = 'data'
     try:
         # Get a list of JSON files in the directory
         file = [f for f in os.listdir(dir) if f.endswith('.json')]
