@@ -9,7 +9,7 @@ def load():
 
     aws_access_key = os.getenv('AWS_ACCESS_KEY_ID')
     aws_secret_key = os.getenv('AWS_SECRET_ACCESS_KEY')
-    bucket = os.getenv('SECRET_Bucket')
+    bucket = os.getenv('Bucket')
 
     #print(bucket)
 
